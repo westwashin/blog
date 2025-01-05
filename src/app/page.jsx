@@ -17,7 +17,7 @@ export default function Home() {
         <Button url="/portfolio" text="See Our Works"/>
       </div>
       <div className={styles.item}>
-        {/* <Image src={Hero} alt="" className={styles.img} /> */}
+        <Image width={500} height={500} src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className={styles.img} />
       </div>
     </div>
   );
